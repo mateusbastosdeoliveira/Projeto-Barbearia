@@ -37,6 +37,7 @@
     align-items: center;
     background-image: url("agustin-fernandez-Znyjl9pbaUs-unsplash.jpg");
     background-size: cover;
+    opacity: 900%;
 }
 
 .main div {
