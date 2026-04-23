@@ -56,7 +56,6 @@
 
 .main p {
     margin-bottom: 2%;
-
     color: rgb(73, 215, 215);
 }
 
@@ -75,26 +74,26 @@
 }
 
 .about {
-    background-color: aliceblue;
+    background-color: rgb(28, 99, 160);
+    flex-wrap: wrap;
     height: calc(100vh - 9vh);
     width: 100%;
-    padding-left: 10%;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-top: 50px;
+    padding-bottom: 50px;
     display: flex;
     justify-content: space-around;
 
 }
 
 .about div {
-    max-width: 50%;
-    padding-right: 40px;
-
+    max-width: 60%;
+    padding: 20px;
+    background-color: yellow;
 }
 
-.about img{
-    max-height: 220px;
-    max-width: 250px;
+.about img {
+    max-height: 250px;
+    max-width: 350px;
     border-radius: 5%;
-    flex: 1;
 }
