@@ -73,27 +73,37 @@
     transform: scale(1.1);
 }
 
-.about {
-    background-color: rgb(28, 99, 160);
-    flex-wrap: wrap;
+
+
+
+.about{
+    display: flex;
+    flex-direction: row;
+    background-color: aliceblue;
     height: calc(100vh - 9vh);
     width: 100%;
-    padding-left: 5%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    display: flex;
-    justify-content: space-around;
+}
+
+.div-image{
+    width: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
 
 }
 
-.about div {
-    max-width: 60%;
-    padding: 20px;
-    background-color: yellow;
+.div-image img{
+    height: 50%;
+    width: 60%;
+    border-radius: 15%;
+    padding-top: 15px;
 }
 
-.about img {
-    max-height: 250px;
-    max-width: 350px;
-    border-radius: 5%;
+.div-text{
+    width: 50%;
+display: flex;
+align-items: center;
+flex-direction: column;
+    padding-top: 15px;
+justify-content: center;
 }
