@@ -1,122 +1,115 @@
 * {
-    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 0;
+    margin: 0;
     outline: 0;
-    box-sizing: border-box;
+    box-sizing: content-box;
     text-decoration: none;
     list-style: none;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .nav {
     background-color: black;
     height: 9vh;
     display: flex;
+    align-items: center;
     justify-content: end;
-    width: 100%;
     position: sticky;
     top: 0;
 }
 
 .nav-list {
-    align-items: center;
     display: flex;
 }
 
-.nav-list a {
-    color: rgb(185, 181, 181);
-    margin: 10px;
+.nav a {
+    color: white;
+    margin-right: 10px;
 }
 
-.nav-list a:hover {
-    color: white;
+.nav a:hover {
     text-decoration: underline;
 }
 
 .main {
-    background-color: black;
+
+    background-color: antiquewhite;
+    width: 100%;
     height: calc(100vh - 9vh);
-    display: flex;
-    align-items: center;
     background-image: url("agustin-fernandez-Znyjl9pbaUs-unsplash.jpg");
     background-size: cover;
+    /* Faz a imagem cobrir toda a div */
     background-position: center;
+    /* Centraliza a imagem */
     background-repeat: no-repeat;
+    /* Evita repetição */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .main div {
-    /* background-color: red; */
-    padding: 5%;
+    padding-left: 5%;
+    width: 50%;
+    /* border: solid 2px red;  */
 }
 
-.main h1 {
+
+
+.main h2 {
     color: white;
-    margin-bottom: 2%;
 }
 
 .main p {
-    margin-bottom: 2%;
-    color: rgb(73, 215, 215);
+    color: rgb(89, 159, 159);
 }
 
 .main button {
-    background-color: aliceblue;
+    margin-top: 5%;
+    font-size: 20px;
+    background-color: whitesmoke;
     color: black;
-    padding: 8px;
+    border-radius: 10px;
+    text-align: center;
     cursor: pointer;
-    font-size: 13px;
-    border: solid 3px rgb(73, 215, 215);
-    border-radius: 12px;
 }
 
 .main button:hover {
     transform: scale(1.1);
 }
 
-
-
-
 .about {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    background-color: aliceblue;
     height: calc(100vh - 9vh);
     width: 100%;
-}
-
-.div-image {
-    width: 50%;
-    display: flex;
+    background-color: whitesmoke;
     justify-content: center;
-    align-items: center;
 
 }
 
-.div-image img {
-    height: 50%;
-    width: 60%;
-    border-radius: 15%;
-    padding-top: 15px;
-}
-
-.div-text {
-    width: 50%;
+.about div {
     display: flex;
-    align-items: center;
     flex-direction: column;
-    padding-top: 15px;
-    justify-content: center;
-}
-
-.contact {
-    background-color: black;
-    height: calc(100vh - 9vh);
-    display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
-.contact h2 {
-    color: aliceblue;
+.cuts {
+    display: flex;
+    height: calc(100vh - 9vh);
+    width: 100%;
+    background-color: whitesmoke;
+    justify-content: center;
+
+}
+
+.cuts div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+html {
+    scroll-behavior: smooth;
 }
