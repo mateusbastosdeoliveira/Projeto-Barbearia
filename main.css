@@ -1,0 +1,60 @@
+
+.main {
+
+    background-color: antiquewhite;
+    width: 100%;
+    height: calc(100vh - 9vh);
+    background-image: url("Imagens/agustin-fernandez-Znyjl9pbaUs-unsplash.jpg");
+    background-size: cover;
+    /* Faz a imagem cobrir toda a div */
+    background-position: center;
+    /* Centraliza a imagem */
+    background-repeat: no-repeat;
+    /* Evita repetição */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ 
+}
+
+.main div {
+    padding-left: 5%;
+    width: 50%;
+}
+
+
+
+.main h2 {
+    color: white;
+}
+
+.main p {
+    color: rgb(89, 159, 159);
+}
+
+.main button {
+    margin-top: 5%;
+    padding: 5px;
+    font-size: 20px;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 7px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.main button:hover {
+    transform: scale(1.1);
+}
+
+@media (min-width: 344px){
+    .main div {
+        width: 90%;
+    }
+}
+
+@media (min-width: 414px){
+    .main div {
+        width: 50%;
+    }
+}
